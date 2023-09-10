@@ -16,7 +16,7 @@ public class Main {
         System.out.println("Автор: " + stuff.getAuthor().getFirstName() + " " + stuff.getAuthor().getLastName());
         System.out.println("Год публикации: " + stuff.getPublicationYear());
 
-        // Изменяем год публикации первой книги
+
         sapiens.setPublicationYear(2005);
 
         System.out.println("\nИзмененная книга 1:");
